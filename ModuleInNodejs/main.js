@@ -1,16 +1,13 @@
+// EcmaScript module access using import
 
-import http from "http";
+import {a,b,c} from "./mymodule.js"
+import obj from "./mymodule.js"
+console.log(a);
+console.log(obj.x);
+console.log(obj.y);
 
-const port = 3000;
-const hostnamee = "127.0.0.1";
+//commonJs module access using rquire
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeaders("Contentype",'text/html');
-    res.write("hello");
-    res.end();
-});
-
-server.listen(port, hostnamee, () => {
-    console.log(`server is running on http://${hostnamee}:${port}/`);
-});
+// const obj=require("./mymodule.js")
+// console.log(obj.x);
+// console.log(obj.y);
