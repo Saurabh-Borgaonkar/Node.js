@@ -1,1 +1,11 @@
-Hellow guys!!append data in hello.txt
+Hello world using main js
+
+
+
+append data through promise
+
+append data through promise
+
+append data through promise
+
+append data through promise
