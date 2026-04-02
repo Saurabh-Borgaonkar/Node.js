@@ -1,0 +1,1 @@
+fs.appendFile("hello.txt","append data in hello.txt");
