@@ -5,3 +5,4 @@ let b=path.dirname('C:\\temp\\myfile.html');
 console.log(b);
 console.log(path.extname('index.html'));
 // Returns: 'C:\\temp\\myfile.html'
+console.log(path.join('C:\\',"saurab\\sau.txt"))
